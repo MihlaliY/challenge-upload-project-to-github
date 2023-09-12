@@ -1,0 +1,93 @@
+header {
+  border: #d44963;
+  border-color: solid #d44963;
+}
+body {
+  font-family: sans-serif;
+  background-color: #ffe4f6;
+  color: rgb(20, 17, 17);
+}
+
+h1 {
+  color: #d44963;
+  text-align: center;
+  font-family: cursive;
+  font-size: 5em;
+}
+/*Added a border and curved the corners a bit*/
+nav {
+  background-color: #d44963;
+  border: #d44963;
+  border-radius: 40px;
+}
+/*Adds border & border radius to make image round*/
+img {
+  border: solid #d44963;
+  border-radius: 100px;
+}
+
+/* in order to center my list, I need to change it from its default "block element to and inline block".*/
+ul {
+  display: inline-block;
+  /*the list items are moved to left for better appearance*/
+  text-align: left;
+  margin: 20px;
+  /*to properly center the list*/
+  padding-left: 0px;
+}
+
+a {
+  color: #ff9c51;
+}
+
+#education,
+#experience,
+#skills {
+  color: #d44963;
+}
+
+.image {
+  text-align: center;
+  background-color: #d44963;
+  border: black;
+  border-radius: 50px;
+}
+
+.intro {
+  text-align: center;
+  color: #d44963;
+  font-style: italic;
+  font-weight: bold;
+}
+/*styling for the different sections of my webpage*/
+.sectionA {
+  background-color: #f7abb9;
+  border-radius: 20px;
+  margin: 50px 0px 50px 100px;
+  padding: 20px;
+}
+
+.sectionB {
+  background-color: #f7abb9;
+  border-radius: 20px;
+  margin: 50px 0px 50px 100px;
+  padding: 20px;
+}
+
+.sectionC {
+  background-color: #f7abb9;
+  border-radius: 20px;
+  margin: 50px 0px 50px 100px;
+  padding: 20px;
+}
+
+.centerList {
+  text-align: center;
+  margin: 0px 0px 50px 50px;
+}
+
+footer {
+  background-color: #d44963;
+  border-radius: 4px;
+  border-width: 35px;
+}
