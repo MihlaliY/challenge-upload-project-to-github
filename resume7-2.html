@@ -3,21 +3,26 @@
   <head>
     <title>Resume 1</title>
     <link rel="shortcut icon" href="/images/Favicon.jfif" type="image/x-icon" />
-    <link rel="stylesheet" href="./resume7-1-style-sheet.css" />
+    <link rel="stylesheet" href="./resume7-2-stylesheet.css" />
   </head>
   <body>
     <header>
-      <h1>Mihlali C. Yono</h1>
-      <p class="intro">An aspiring software developer.</p>
+      <div class="banner">
+        <img
+          src="/images/MihlaliY.jpg"
+          alt="Picture of Mihlali infront of a tree/bush."
+        />
+      </div>
+      <div class="bannertext">
+        <h1>Mihlali C. Yono</h1>
+        <p class="intro">
+          An aspiring software developer. <br />
+          Hire me!!
+        </p>
+      </div>
     </header>
     <section>
       <aside>
-        <div class="image">
-          <img
-            src="/images/MihlaliY.jpg"
-            alt="Picture of Mihlali infront of a tree/bush."
-          />
-        </div>
         <nav>
           <div class="List">
             <a href="#education">Education</a>
@@ -79,13 +84,17 @@
             <li>Skill 4</li>
           </ul>
         </section>
+        <picture>
+          <source media="(max-width:500px )" srcset="./images/small.jpg" />
+          <source media="(max-width:1000px )" srcset="./images/medium.jpg" />
+          <img src="./images/large.jpg" alt="picture of Mihlali" />
+        </picture>
       </article>
     </section>
     <footer>
       <form
         action="https://formsubmit.co/fa4b1a5ee4af0f1d9c3a7263ad392489"
         method="post"
-        autocomplete="on"
       >
         <h2>Contact Me:</h2>
         <label for="name">Name</label>
