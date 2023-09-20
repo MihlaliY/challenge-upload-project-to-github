@@ -1,0 +1,119 @@
+header {
+  border: #d44963;
+  border-color: solid #d44963;
+}
+body {
+  font-family: sans-serif;
+  background-color: #ffe4f6;
+  color: rgb(20, 17, 17);
+  margin-left: 0px;
+}
+
+h1 {
+  color: #d44963;
+  text-align: center;
+  font-family: cursive;
+  font-size: 5em;
+}
+/*Added a border and curved the corners a bit*/
+nav {
+  background-color: #d44963;
+  border: #d44963;
+  position: fixed;
+  top: 0px;
+  height: 40px;
+  width: 85em;
+}
+/*Adds border & border radius to make image round*/
+img {
+  border: solid #d44963;
+  border-radius: 100px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  margin: 20px;
+  padding-left: 0px;
+}
+
+a {
+  color: #ff9c51;
+}
+
+#education,
+#experience,
+#skills {
+  color: #d44963;
+}
+
+.image {
+  text-align: center;
+  background-color: #d44963;
+  border: black;
+  border-radius: 50px;
+}
+
+.intro {
+  text-align: center;
+  color: #d44963;
+  font-style: italic;
+  font-weight: bold;
+}
+/*styling for the different sections of my webpage*/
+.section {
+  background-color: #f7abb9;
+  border-radius: 20px;
+  margin: 50px 0px 50px 100px;
+  padding: 20px;
+}
+
+.List {
+  margin: 0px 0px 50px 50px;
+  text-align: center;
+}
+
+.reason {
+  margin-top: 10px;
+}
+
+form {
+  background-color: #d44963;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 50px;
+  width: max-content;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea,
+label {
+  display: block;
+}
+
+button {
+  background-color: #ff9c51;
+  border: #ff9c51;
+  border-radius: 20px;
+  width: 80px;
+  height: 50px;
+}
+
+.button {
+  text-align: center;
+  margin: 30px;
+}
+
+.linkedin {
+  display: block;
+  text-align: center;
+}
+
+footer {
+  border-radius: 4px;
+  border-width: 35px;
+}
