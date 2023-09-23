@@ -1,0 +1,212 @@
+body {
+  font-family: sans-serif;
+  background-color: #f3bfe2;
+  color: rgb(20, 17, 17);
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+img {
+  border-radius: 5px 50px;
+}
+
+ul {
+  margin-top: 0px;
+}
+
+a {
+  color: #ff9c51;
+}
+
+#education,
+#experience,
+#skills {
+  color: #d44963;
+}
+
+.ul {
+  display: inline;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.li {
+  display: inline;
+  margin-right: 100px;
+}
+
+form {
+  background-color: #c07975;
+  padding: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.banner {
+  background-image: url(./images/hero.jpg);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  text-align: justify;
+  padding: 100px 70px 70px 70px;
+}
+
+.img {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color: antiquewhite;
+}
+
+.intro {
+  margin-bottom: 0px;
+}
+
+.navbar {
+  background-color: #ca435c;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 20px;
+}
+
+.section {
+  background-color: #f7abb9;
+  border-radius: 20px;
+  margin: 50px 0px 50px 50px;
+  padding: 20px;
+}
+
+input {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+textarea,
+label {
+  display: block;
+}
+
+button {
+  background-color: #ff9c51;
+  border: #ff9c51;
+  border-radius: 20px;
+  width: 80px;
+  height: 50px;
+}
+
+.button {
+  text-align: center;
+  margin: 30px;
+}
+
+.linkedin {
+  display: block;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+/*=============================================Mobile===========================================*/
+
+@media screen and (max-width: 500px) {
+  .li {
+    font-size: 0.8rem;
+  }
+  .title {
+    font-size: 0.7rem;
+  }
+  .section {
+    font-size: 0.5rem;
+    margin-right: 50px;
+  }
+  input,
+  textarea,
+  label {
+    font-size: 0.6rem;
+  }
+  .contact {
+    font-size: 0.7em;
+  }
+  button {
+    font-size: 0.5;
+    border-radius: 20px;
+    width: 50px;
+    height: 20px;
+  }
+  .linkedin {
+    font-size: 0.7em;
+  }
+  select {
+    font-size: 0.7em;
+  }
+}
+
+/*=============================================Tablet===========================================*/
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .li {
+    font-size: 1em;
+  }
+  .title {
+    font-size: 0.8rem;
+  }
+  img {
+    width: 8em;
+  }
+  .section {
+    font-size: 0.9rem;
+    margin-right: 50px;
+  }
+  input,
+  textarea,
+  label {
+    font-size: 0.7rem;
+  }
+  .contact {
+    font-size: 0.9em;
+  }
+  button {
+    font-size: 0.8em;
+    border-radius: 50px;
+    width: 80px;
+    height: 50px;
+  }
+  .linkedin {
+    font-size: 0.9em;
+  }
+  select {
+    font-size: 0.7em;
+  }
+}
+
+/*=============================================Laptop===========================================*/
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .li {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  img {
+    width: 15em;
+  }
+  .section {
+    font-size: 1rem;
+    margin-right: 50px;
+  }
+}
